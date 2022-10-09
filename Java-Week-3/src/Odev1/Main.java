@@ -1,3 +1,5 @@
+package Odev1;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -63,7 +65,7 @@ class Customer {
     }
 }
 
-// Customer'dan kalıtım yapılıyor.
+// Odev1.Customer'dan kalıtım yapılıyor.
 class Person extends Customer {
     public String NationalIdentity;
     public String FirstName;
@@ -94,7 +96,7 @@ class Person extends Customer {
     }
 }
 
-// Customer'dan kalıtım yapılıyor.
+// Odev1.Customer'dan kalıtım yapılıyor.
 class Company extends Customer {
     public String TaxNumber;
     public String CompanyName;
